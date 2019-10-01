@@ -4,7 +4,7 @@ https://github.com/mmalessa/testSymfonyEvents
 
 # Install
 ```shell script
-git clone git@github.com:mmalessa/testSymfonyEvents.git
+git clone git@github.com:mmalessa/symfonyEventsExperiments.git
 cd testSymfonyEvents
 composer install
 ```
