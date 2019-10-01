@@ -1,0 +1,16 @@
+parameters:
+
+services:
+  _defaults:
+    autowire: false      # Automatically injects dependencies in your services.
+    autoconfigure: flse # Automatically registers your services as commands, event subscribers, etc.
+
+  App\Command\:
+    resource: '../src/Command'
+    tags: ['console.command']
+    bind:
+      $eventDispatcher: '@event_dispatcher'
+
+
+  App\EventSubscriber\ConsoleLogger:
+    tags: ['kernel.event_subscriber']
