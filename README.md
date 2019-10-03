@@ -1,5 +1,5 @@
 # Symfony Events
-A simple example to help you understand event subscribers.  
+A simple example to help you understand event subscribers in Symfony 4.3  
 https://github.com/mmalessa/testSymfonyEvents  
 
 # Install
